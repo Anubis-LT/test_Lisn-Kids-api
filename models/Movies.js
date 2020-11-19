@@ -1,21 +1,13 @@
 const mongoose = require("mongoose");
 
 const schema = {
+  rank: Number,
   title: String,
+  fullTitle: String,
   year: String,
-  runtime: String,
-  genre: String,
-  director: String,
-  writer: String,
-  actors: String,
-  plot: String,
-  language: String,
-  country: String,
-  poster: String,
-  imdbRating: Number,
-  type: String,
-  totalSeasons: Number,
-  images: [String],
+  image: String,
+  crew: String,
+  imDbRating: Number,
 };
 
 module.exports = mongoose.model("Movies", schema, "movies");
