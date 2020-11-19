@@ -25,7 +25,7 @@ app.use(formidableMiddleware());
 app.use(cors());
 
 app.get("/", async (req, res) => {
-  res.send("Welcome to my API");
+  res.send("Welcome to dvd-shop API");
 });
 
 app.listen(3000, () => {
