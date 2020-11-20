@@ -44,7 +44,7 @@ const importDataInCollection = async (collection, data) => {
       phoneNumber: faker.phone.phoneNumber(),
     };
     // RANDOMIZE A NUMBER OF MOVIES FOR THIS USER
-    const numberOfMovies = Math.floor(Math.random() * movies.length);
+    const numberOfMovies = Math.floor(Math.random() * 15);
     // CREATE OF COPY OF MOVIES IDS ARRAY AND SHUFFLE IT
     const userMovies = _.shuffle(listOfMoviesIds).slice(0, numberOfMovies - 1);
     // ADD MOVIES IDS TO FAKE OBJET
