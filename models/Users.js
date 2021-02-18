@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const schema = {
+const schema = mongoose.Schema({
   firstName: String,
   lastName: String,
   email: String,
@@ -11,6 +11,6 @@ const schema = {
     default: false,
   },
   movies: [{ type: mongoose.Schema.Types.ObjectId, ref: "Movies" }],
-};
+});
 
 module.exports = mongoose.model("Users", schema, "users");

@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const schema = {
+const schema = mongoose.Schema({
   rank: Number,
   title: String,
   fullTitle: String,
@@ -8,6 +8,6 @@ const schema = {
   image: String,
   crew: String,
   imDbRating: Number,
-};
+});
 
 module.exports = mongoose.model("Movies", schema, "movies");
