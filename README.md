@@ -1,9 +1,5 @@
-# dvd-shop-api
-
-Exemple d'API à intégrer à ForestAdmin.
+# LisnKids Api Ebauche
 
 ## Procédure d'installation
 
-1. Installez les packages en tapant `npm i`.
-2. Remplissez la base de données en tapant `npm run reset-db`.
-# test_Lisn-Kids-api
+Installez les packages en tapant `npm i`.
