@@ -13,6 +13,7 @@ require("dotenv").config();
 const Series = require("./models/Series");
 const Episodes = require("./models/Episodes");
 
+// for test
 //const series = require("./data/series");
 //const episodes = require("./data/episodes");
 
